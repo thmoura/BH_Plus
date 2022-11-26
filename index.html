@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BH Plus</title>
+    <link rel="stylesheet" href="./main.css">
+
 </head>
 <body>
     <header>
-    <div>
+    <div class="conteiner">
         <h1>BH Plus</h1> 
         <nav>
             <ul>
@@ -16,19 +18,87 @@
                     <a href="#about">Sobre a loja</a>
                 </li>
                 <li>
-                    <a href="#about">Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
                 <li>
-                    <a href="#about">Servoços prestados</a>
+                    <a href="#service">Serviços prestados</a>
                 </li>
             </ul>
         </nav>
     </div>   
     </header>
-    <section>
-        <div>
-            <img src="./fachada_loja.jpg" alt="Fachada da loja">
+    <section id="about">
+        <div class="conteiner">
+            <img  class="store-front" src="./imagens/fachada_loja.jpg" alt="Fachada da loja">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Accusamus, eaque aliquam dolorem dolor eius aperiam, commodi 
+                    quod quidem delectus corrupti magni exercitationem id nobis 
+                    inventore minima animi, deleniti temporibus eligendi!
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Accusamus, eaque aliquam dolorem dolor eius aperiam, commodi 
+                    quod quidem delectus corrupti magni exercitationem id nobis 
+                    inventore minima animi, deleniti temporibus eligendi!
+                </p>
+            </div>
         </div>
     </section>
+    <section id="service">
+        <div class="conteiner">
+            <h2>Serviços prestados</h2>
+            <div>
+                <img src="./imagens/troca_conector.jpg" alt="Troca Conector">
+                <img src="./imagens/troca_frontal.jpg" alt="Troca Frontal">
+                <img src="./imagens/troca_lcd_notebook.jpg" alt="Troca Display Notebook">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="conteiner">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form >
+                        <input type="text" placeholder="Informe seu Nome" required/>
+                        <input type="email" placeholder="Informe seu E-mail"  required/>
+                        <input type="tel" placeholder="Informe seu Telefone (Opcinal)" />
+                        <textarea placeholder="Sua Mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos Acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./imagens/insta.png" alt=" logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./imagens/Face.png" alt=" logo do Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Nosso Endereço</h3>
+                    <p>
+                        Rua Coronel João Duarte, 65 - Cataguases/MG
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <p>
+                &copy; BH Plus - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
