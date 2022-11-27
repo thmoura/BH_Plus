@@ -55,7 +55,8 @@ section {
 
 section h2 {
     margin-bottom: 16px;
-   font-size: 40px;
+    font-size: 40px;
+    font-style: italic;
 }
 
 section {
@@ -63,11 +64,9 @@ section {
 }
 
 section p {
-    color: black;
-}
-
-section p {
     margin-bottom: 8px;
+    color: black;
+    font-size: 14px;
 }
 
 #about .conteiner img {
