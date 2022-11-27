@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Archivo Black', sans-serif;
+}
+
 header {
     padding: 16px;
     background-color: rgb(46, 201, 248);
@@ -44,14 +55,23 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+   font-size: 40px;
 }
 
 section {
+    color:rgb(46, 201, 248);
+}
+
+section p {
     color: black;
 }
 
 section p {
     margin-bottom: 8px;
+}
+
+#about .conteiner img {
+    height: 500px;
 }
 
 .store-front {
@@ -119,8 +139,25 @@ footer {
     padding: 16px;
 }
 
+#service .conteiner {
+    display: block;
+}
+
 #service img {
-    height: 500px;
-    margin-top: 70px;
-    margin-right: 20px;
+    height: 400px;
+    margin-top: 8px;
+
+}
+
+#service .articles article {
+    display: inline-block;
+}
+
+.articles {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
 }
